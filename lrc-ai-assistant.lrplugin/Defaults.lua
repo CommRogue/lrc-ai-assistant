@@ -68,7 +68,7 @@ Defaults.aiModels = {
     { title = "Google Gemini Pro 1.5", value = "gemini-1.5-pro" },
     { title = "Google Gemini Flash 2.0", value = "gemini-2.0-flash" },
 --     { title = "Google Gemini Pro 1.5-002", value = "gemini-1.5-pro-002" },
---    { title = "ChatGPT-4", value = "gpt-4o" },
+   { title = "ChatGPT-4", value = "gpt-4o" },
 }
 
 Defaults.baseUrls = {}
@@ -86,8 +86,11 @@ Defaults.pricing["gemini-1.5-flash"].output= 0.3 / 1000000
 Defaults.pricing["gemini-2.0-flash"] = {}
 Defaults.pricing["gemini-2.0-flash"].input = 0.075 / 1000000
 Defaults.pricing["gemini-2.0-flash"].output= 0.3 / 1000000
+Defaults.pricing["gpt-4o"] = {}
+Defaults.pricing["gpt-4o"].input = 0.075 / 1000000
+Defaults.pricing["gpt-4o"].output= 0.3 / 1000000
 
-Defaults.defaultAiModel = "gemini-2.0-flash"
+Defaults.defaultAiModel = "gpt-4o"
 
 Defaults.googleTopKeyword = 'Google Gemini'
 Defaults.chatgptTopKeyword = 'ChatGPT'
